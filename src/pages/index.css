@@ -1,0 +1,57 @@
+.normal {
+  font-family: "Microsoft YaHei UI";
+  border-radius: 12px;
+}
+
+.logo {
+  height: 64px;
+  text-align: left;
+  padding: 0 12px;
+  line-height: 64px;
+  border-bottom: 1px solid rgb(234, 234, 241);
+}
+
+.logoTitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.logoText {
+  margin-left: 12px;
+}
+
+.buttonDiv {
+  display: inline-block;
+  margin-left: 6px;
+  float: right;
+  line-height: 64px;
+}
+
+.left {
+  height: calc(100vh - 64px);
+  /*border-right: 1px solid rgb(234, 234, 241);*/
+}
+
+.rightTop {
+  height: 64px;
+  background: #ffffff;
+  border-left: 1px solid rgb(234, 234, 241);
+}
+
+.right {
+  height: 100vh;
+  overflow: auto;
+  background: rgb(246, 247, 250);
+}
+
+.rightIcon {
+  line-height: 64px;
+  padding-right: 18px;
+  float: right;
+  font-size: 16px;
+
+}
+
+.icon {
+  cursor: pointer;
+}
